@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Evaluacion</string>
+    <string name="exhibiciones">Ver Exhibiciones</string>
+    <string name="id">ID</string>
+    <string name="nombre">Nombre</string>
+    <string name="descripcion">Descripción</string>
+    <string name="agregar">Agregar</string>
+    <string name="estado">Estado</string>
+    <string name="modificar">Modificar</string>
+    <string name="eliminar">Eliminar</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="3"
+    android:rowCount="7"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/irExhibicionesBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_column="0"
+        android:layout_row="0"
+        android:onClick="irExhibiciones"
+        android:text="@string/exhibiciones"/>
+
+    <Button
+        android:id="@+id/irAgregarBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_column="0"
+        android:layout_row="1"
+        android:onClick="irAgregar"
+        android:text="@string/exhibiciones"/>
+
+
+</GridLayout>
